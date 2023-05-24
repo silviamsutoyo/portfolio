@@ -1,0 +1,8 @@
+.content-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.element {
+    flex: 1;
+}
