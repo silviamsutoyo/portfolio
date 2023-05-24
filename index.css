@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body {
+    font-family: Outfit;
+    width: 100%;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.navbar-item {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 40px;
+    min-width: 3em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.active {
+    color: white;
+    background-color: black;
+}
+
 .content-layout {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 2em;
 }
 
 .element {
