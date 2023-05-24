@@ -1,8 +1,15 @@
 .content-layout {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .element {
     flex: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+.element img {
+    padding: 5px;
 }
