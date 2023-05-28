@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body {
+    font-family: Outfit;
+    color: black;
+    left: 0;
+    right: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-item {
+    position: fixed;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.nav-left {
+    left: 0;
+}
+
+.nav-left a {
+    padding: 0 1em;
+    min-width: 5em;
+    text-decoration: none;
+    color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.nav-right {
+    right: 0;
+}
+
+.nav-right a {
+    padding: 0 1em;
+    min-width: 5em;
+    text-decoration: none;
+    color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+main {
+    width: 100%;
+    left: 0;
+    right: 0;
+
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    left: auto;
+    right: auto;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.banner img {
+    width: 80%;
+    height: 80%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.banner-text h3 {
+    font-style: italic;
+}
+
+.content-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2em;
+}
+
+.element {
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+.element div {
+    padding: 10px 2px;
+}
+
+.element div img {
+    border-radius: 5px;
+}

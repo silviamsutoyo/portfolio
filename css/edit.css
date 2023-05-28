@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body {
+    font-family: Outfit;
+    left: 0;
+    right: 0;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-item {
+    position: fixed;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.nav-left {
+    left: 0;
+}
+
+.nav-left a {
+    padding: 0 1em;
+    min-width: 5em;
+    text-decoration: none;
+    color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.nav-right {
+    right: 0;
+}
+
+.nav-right a {
+    padding: 0 1em;
+    min-width: 5em;
+    text-decoration: none;
+    color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+#active {
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+}
+
+.content-layout {
+    display: flex;
+    flex-direction: row;
+    margin: 3em 2em 0;
+}
+
+@media screen and (max-width: 600px) {
+    .content-layout {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.column {
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+.column img {
+    padding: 10px 5px;
+    border-radius: 3px;
+    width: 100%;
+}
